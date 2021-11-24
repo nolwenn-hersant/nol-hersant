@@ -57,6 +57,13 @@ section h2 {
     color: #7c6457 !important;
 }
 
+/* ICON */
+.icon{
+    width: 50%;
+    height: auto;
+}
+
+
 /* PHOTO DE MOI */
 
 #container-intro {
