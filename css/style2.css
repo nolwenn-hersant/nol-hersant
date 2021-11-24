@@ -1,0 +1,229 @@
+html, body {
+ margin: 10px;
+ padding: 10px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NOM */
+.nom{
+    font-weight: bold; 
+    font-size: 25px;
+    color : black;
+    text-decoration: none;
+}
+.nom:hover{
+    color: #7c6457 !important;
+}
+
+a:hover{
+    color: black;
+}
+
+.cercle {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background: #7c6457;
+}
+
+/* TEXTE A GAUCHE ET A DROITE */
+
+.textedroite {
+    writing-mode: vertical-rl;
+    position: fixed;
+    top: 50%;
+    font-weight: bold; 
+    font-size: 13px;
+    right: 50px;
+    transform: translateY(-50%);   
+}
+
+
+.textegauche {
+    writing-mode: vertical-rl;
+    position: fixed;
+    top: 50%;
+    font-weight: bold;
+    font-size: 13px;
+    left: 50px;
+    transform: translateY(-50%) rotate(180deg);   
+}
+
+/* TEXTE*/
+
+p{
+    font-size: 15px;
+}
+
+h2{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.titre{
+    color: #7c6457;
+    margin-top:7%;
+    margin-bottom:4%;
+}
+
+.name{
+    color: #7c6457;
+    margin-top:3%;
+}
+
+.soustitre{
+    margin-bottom: 5%;
+}
+
+.description{
+    color: #7c6457;
+    margin-top:10%;
+    margin-bottom:4%;
+    text-align: left;
+}
+
+/* TOP */
+
+.top {
+    color: #7c6457;
+    width:5%;
+    height: auto;
+    position:fixed;
+    top:88vh;
+}
+
+/* TOUS LES PROJETS*/
+
+#proj{
+    width: 40%;
+    height: auto;
+    box-shadow: 2px 3px 9px 5px #D0D0D0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:5%;
+}
+
+#projet{
+    width: 70%;
+    height: auto;
+    box-shadow: 2px 3px 9px 5px #D0D0D0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.desc {
+    text-align: justify;
+    margin-right: 6%;
+    margin-left: auto;
+}
+
+#outils{
+    width: 5%;
+    margin-left: 7%;
+}
+
+.outils{
+    color: #7c6457;
+    text-align: left;
+    margin-bottom: 3%;
+    margin-left: 7%;
+}
+/* MMI FOUNDRY */
+
+.logo_mmi{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logos{
+    padding-left: 6%;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* STORIES - MAGAZINE */
+
+.logo_stories{
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#couleurs_stories{
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* HACKATHON */
+
+.logo_hack{
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#couleurs_hack{
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* DRESS - MAGAZINE */
+
+.logo_dress{
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* GREENLIGHT */
+
+#proj_greenlight{
+    width: 60%;
+    height: auto;
+    box-shadow: 2px 3px 9px 5px #D0D0D0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:5%;
+}
+
+#couleurs_greenlight{
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#proj_{
+    width: 30%;
+    height: auto;
+    box-shadow: 2px 3px 9px 5px #D0D0D0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:5%;
+}
+
+/* COPYRIGHT */
+.copyright{
+    text-align: center;
+    margin-top: 10%;
+}
+

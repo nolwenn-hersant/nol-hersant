@@ -1,0 +1,253 @@
+html, body {
+ margin: 10px;
+ padding: 10px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* SECTION */
+
+section {
+    margin-bottom: 10%;
+}
+
+section h3{
+    margin-bottom: 6%;
+    font-size: 2em;
+}
+
+section h1 {
+    font-size:1.3em;
+}
+section h2 {
+    font-size:1.8em;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+ .bg {
+ left: 50%;
+ margin-left: -512px; / 50% */
+ }
+}
+
+.bg {
+ min-height: 100%;
+ min-width: 1024px;
+ width: 100%;
+ height: auto;
+ position: fixed;
+ top: 0;
+ left: 0;
+}
+
+/* NOLWENN HERSANT */
+
+.nom{
+    font-weight: bold; 
+    font-size: 25px;
+    color : black;
+    text-decoration: none;
+}
+
+.nom:hover{
+    color: #7c6457 !important;
+}
+
+/* PHOTO DE MOI */
+
+#container-intro {
+    display : flex;
+    justify-content: space-around;
+    align-items:  center;
+    width: 100%;
+    height: 100%; 
+}
+
+.portfolio {
+    width: 85%;
+    
+}
+
+/* MENU */
+
+ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: #7c6457 !important;
+}
+
+
+li {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #7c6457 !important;
+}
+
+a{
+    text-decoration: none;
+    color: #7c6457;
+    font-size: 15px;
+}
+
+a:hover{
+    color: black;
+}
+
+/* TEXTE A GAUCHE ET A DROITE */
+
+.textedroite {
+    writing-mode: vertical-rl;
+    position: fixed;
+    top: 50%;
+    font-weight: bold; 
+    font-size: 13px;
+    right: 50px;
+    transform: translateY(-50%);   
+}
+
+
+.textegauche {
+    writing-mode: vertical-rl;
+    position: fixed;
+    top: 50%;
+    font-weight: bold;
+    font-size: 13px;
+    left: 50px;
+    transform: translateY(-50%) rotate(180deg);   
+}
+
+/* TEXTE */
+
+p{
+    font-size: 17px;  
+}
+
+h1{
+    color: #7c6457;
+}
+
+h3{
+    text-align: center;
+    color: #7c6457;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+/* CV */
+
+#propos img {
+width:60%;
+box-shadow: 2px 3px 9px 5px #D0D0D0;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top:4%;
+}
+
+#propos img:hover {
+transform : scale(1.2);
+}
+
+.monCV {
+    margin-top:15px;
+    font-weight: bold;
+}
+
+#propos p {
+    text-align: center;
+}
+
+#propos a {
+    text-align: center;
+}
+
+
+/* MES PROJETS */
+
+.projets{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 3px 9px 5px #D0D0D0;
+    margin-bottom:10%;
+}
+
+.projets:hover {
+    transform : scale(1.3);
+}
+
+/* PAGES DE PROJET */
+
+.logo{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:4%;
+    margin-bottom:5%;
+}
+
+.proj{
+    width: 50%;
+    height: 50%;
+    box-shadow: 2px 3px 9px 5px #D0D0D0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:5%;
+    margin-bottom:10%;
+}
+.proj:hover{
+    transform : scale(1.2);
+}
+
+.desc{
+    text-align: center;
+    font-size:1.5em;
+}
+
+.titre{
+    margin-top:6%;
+    margin-bottom:4%;
+}
+
+.name{
+    margin-top:7%;
+}
+
+.competences{
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:10%;
+}
+
+/* CONTACTS */
+
+#contact li {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* COPYRIGHT */
+
+.copyright{
+    text-align: center;
+}
+
+/* TOP */
+
+.top {
+    width:5%;
+    height: auto;
+    position:fixed;
+    top:88vh;
+} 
